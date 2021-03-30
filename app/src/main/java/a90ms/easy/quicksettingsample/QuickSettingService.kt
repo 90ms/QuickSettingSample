@@ -6,8 +6,6 @@ import android.app.AlertDialog
 import android.content.Intent
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
-import android.view.View
-
 
 class QuickSettingService : TileService() {
 
@@ -79,7 +77,6 @@ class QuickSettingService : TileService() {
     private fun startDialog() {
     val dialog: AlertDialog =
             AlertDialog.Builder(applicationContext)
-//                .setView(R.layout.dialog_main)
                 .setTitle("QuickSetting")
                 .setMessage("message")
                 .setPositiveButton(
