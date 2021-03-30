@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">QuickSettingSample</string>
+
+    <string name="txt_title">QuickSetting Dialog Title</string>
+    <string name="txt_contents">QuickSetting Dialog Contents</string>
+    <string name="et_contents_hint">Please write</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">Cancel</string>
 </resources>
